@@ -223,6 +223,9 @@ article img {
     padding: 15vh 0 5vh 0;
 }
 
+
+/*##########@Media##########*/
+
 @media (max-width:375px) {
     /*##########Header##########*/
     nav ul {
@@ -235,7 +238,6 @@ article img {
         margin-left: 10px;
         cursor: pointer;
         padding-bottom: 5px;
-        color: rgb(255, 80, 80);
     }
     nav h1 {
         text-align: center;
@@ -288,5 +290,118 @@ article img {
     .section1 div:nth-of-type(2) span {
         font-size: 1rem;
         color: rgb(157, 157, 157);
+    }
+    /*##########Main-SECTION2##########*/
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10vh;
+    }
+    .section2 div {
+        margin: 0 auto;
+    }
+    .section2 img {
+        width: 80%;
+        margin-right: 5vw;
+        padding: 0 0 0vh 0;
+        margin: 0 auto;
+    }
+    .section2 div:nth-of-type(1) {
+        width: 350px;
+        text-align: center;
+    }
+    .section2 div:nth-of-type(1) h2 {
+        font-size: 2rem;
+        padding: 2vh 0;
+        border-bottom: 1px solid black;
+    }
+    .section2 div:nth-of-type(1) h3 {
+        font-size: 1rem;
+        padding: 25px 0;
+    }
+    .section2 div:nth-of-type(1) p {
+        font-size: 1.5rem;
+        color: rgb(157, 157, 157);
+    }
+    /*##########Main-SECTION3##########*/
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background: #f2f2f2;
+        width: 80%;
+        border-radius: 10px;
+        margin-top: 5vh;
+    }
+    .section3 div {
+        margin: 0 auto;
+    }
+    .section3 img {
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 2vh;
+    }
+    .section3 h2 {
+        font-size: 2rem;
+        padding: 5vh 0 0 3vw;
+    }
+    .section3 ol {
+        padding: 15px 0 0 4.5vw;
+        line-height: 25px;
+        width: 250px;
+        color: rgb(133, 133, 133);
+        margin: 0 auto;
+    }
+    .section3 p {
+        width: 250px;
+        padding: 15px 0 0 3vw;
+        color: rgb(133, 133, 133);
+    }
+    /*##########Main-SECTION4##########*/
+    .section4 {
+        text-align: center;
+    }
+    .section4 div {}
+    .section4 p {
+        font-size: 1rem;
+        line-height: 30px;
+        color: rgb(133, 133, 133);
+        width: 250px;
+        margin: 0 auto;
+    }
+    .section4 h2:nth-of-type(1) {
+        font-size: 2.5rem;
+        position: relative;
+        padding: 10vh 0 5vh 0;
+    }
+    .section4 h2:nth-of-type(2) {
+        font-size: 10rem;
+        color: rgb(177, 177, 177);
+    }
+    .section4 img {
+        width: 50%;
+        position: relative;
+        bottom: 10vh;
+        left: 20vw;
+    }
+    .section4 div:nth-of-type(2) {
+        border-bottom: 1px solid black;
+        width: 90vw;
+        margin: 0 auto;
+    }
+    /*##########Main-SECTION5##########*/
+    .section5 h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 5vh 0 0 0;
+    }
+    .section5 img {
+        width: 15%;
+    }
+    .section5 div {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding: 15vh 0 15vh 0;
     }
 }
